@@ -97,6 +97,6 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         context: .
-        file: /mypizza/Dockerfile
+        file: ./mypizza/Dockerfile
         push: true
         tags: k4mus/mypizza:latest
